@@ -1,21 +1,22 @@
-# YOLO Models for Instance Segmentation of Individual Tree Crowns from Aerial Imagery in Wellington
+# 🌳 YOLO Models for Instance Segmentation of Individual Tree Crowns from Aerial Imagery in Wellington
 
-## Overview
+## 📋 Overview
 
-This repository contains the PhD thesis defense slides for research on developing innovative YOLO-based models for instance segmentation and species classification of individual tree crowns from aerial imagery, with a focus on Wellington, New Zealand.
+This repository contains the PhD thesis defense slides for research on developing innovative YOLO-based models for instance segmentation and species classification of individual tree crowns from aerial imagery, with a focus on Wellington, New Zealand. 🇳🇿
 
-**Author:** Ziyi Sun  
-**Supervisors:** Bing Xue and Mengjie Zhang  
-**Institution:** School of Engineering and Computer Science, Victoria University of Wellington
+**👨‍🎓 Author:** Ziyi Sun  
+**👨‍🏫 Supervisors:** Bing Xue and Mengjie Zhang  
+**🏛️ Institution:** School of Engineering and Computer Science, Victoria University of Wellington
 
-## Research Motivation
+
+## 🎯 Research Motivation
 
 The research addresses critical environmental challenges in the Wellington region:
 - **Landslide Prevention:** Supporting reforestation efforts in the Wairarapa area to prevent landslides
 - **Strategic Tree Planting:** Determining optimal locations for new tree plantings
 - **Species Selection:** Identifying which tree types work best for specific environmental conditions
 
-## Technical Approach
+## 🎯 Technical Approach
 
 ### Instance Segmentation Goals
 The research tackles three key computer vision tasks:
@@ -30,7 +31,7 @@ The research tackles three key computer vision tasks:
 - False positive identification from background elements (shrubs, grass, weeds)
 - Data labeling uncertainties
 
-## Major Contributions
+## 🎯 Major Contributions
 
 ### 1. YOLO-ITC
 - **Innovation:** Dense blocks with efficient attention mechanisms
@@ -47,7 +48,7 @@ The research tackles three key computer vision tasks:
 - **Focus:** Cross-scale and same-scale fusion techniques
 - **Enhancement:** Large-kernel convolutions for better global context
 
-## Performance Results
+## 🎯 Performance Results
 
 | Method | Box AP | Mask AP | AP50 | AP75 | APS | APM | FLOPs | #Params |
 |--------|--------|---------|------|------|-----|-----|-------|---------|
@@ -56,7 +57,7 @@ The research tackles three key computer vision tasks:
 | YOLOv8E-B | 36.1 | 32.2 | 60.5 | 31.9 | 31.2 | 43.7 | 106.4G | 56.9M |
 | YOLOv8-FF | **37.6** | **32.9** | **61.4** | **32.8** | **31.9** | 44.6 | 196.1G | 54.4M |
 
-## Publications
+## 🎯 Publications
 
 This research has resulted in multiple peer-reviewed publications:
 
@@ -68,7 +69,7 @@ This research has resulted in multiple peer-reviewed publications:
 
 4. **Ziyi Sun**, Bing Xue, Mengjie Zhang, and Jan Schindler. "An Improved Mask R-CNN for Instance Segmentation of Tree Crowns in Aerial Imagery." *2023 38th International Conference on Image and Vision Computing New Zealand (IVCNZ)*, 2023.
 
-## Future Work
+## 🎯 Future Work
 
 - Handling overlapping and ambiguously bounded tree crowns
 - Improving model generalization across different regions
@@ -78,12 +79,7 @@ This research has resulted in multiple peer-reviewed publications:
 - Real-time and on-device deployment
 - Neural architecture search optimization
 
-## Repository Contents
-
-- `slides.pdf` - Complete PhD thesis defense presentation
-- Additional materials and code (to be added)
-
-## Applications
+## 🎯 Applications
 
 This research has direct applications in:
 - **Environmental Management:** Forest monitoring and conservation
